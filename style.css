@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #dc3545;
+    color: white;
+}
+.header h5{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    border-radius: 0rem !important;
+}   
+
+.searchInput {
+    border: none !important;
+}
+
+.empid{
+    outline: none !important;
+    border: none !important;
+    border-bottom: 3px solid #0d6efd !important;
+    border-radius: 0 !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-magnifying-glass:before{
+    color:  #0d6efd;
+    padding: 15px;
+    font-size: 20px;
+}
+.search{
+    width: 40%;
+}
+.upper-btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 20px;
+}
+.table-box{
+    width: 100%;
+    padding: 20px;
+} 
+.table-box table{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.table-box table tr th{
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table-box table tr td{
+    padding: 10px 0px 5px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table-box table tr button{
+    margin: 0px 10px;
+    padding: 5px 10px 5px;
+}
+
+/* start modal */
+.addData .form-group{
+    padding: 10px 0;
+    border-left: 5px solid #dc3545;
+}
+
+.addData .modal-footer{
+    border-top:0px;
+    justify-content: space-around;
+}
+.img-box{
+    width: 100%;
+    height: 250px;
+    background-color: rebeccapurple;
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+.img-box img{
+    border-radius: 50%;
+}
+.img-box i{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+.img-box input{
+    position: absolute;
+    top: 30%;
+    opacity: 0;
+}
+.employeData .modal-content{
+    border-top: 20px groove #dc3545 !important;
+}
+.addData .modal-footer button{
+    width: 45%;
+}
